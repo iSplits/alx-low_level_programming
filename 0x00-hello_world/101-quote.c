@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-		const char str1[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+		char str1[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 		write(2, str1, 51);
-		return (0);
+		return (1);
 }
