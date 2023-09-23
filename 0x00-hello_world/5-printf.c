@@ -1,4 +1,4 @@
-#!/bin/bash
+#include <stdio.h>
 /**
  * main - the main function of the program
  *
@@ -6,6 +6,6 @@
  */
 int main()
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
-	return 0;
+		printf("with proper grammar, but the outcome is a piece of art,\n");
+		return (0);
 }
