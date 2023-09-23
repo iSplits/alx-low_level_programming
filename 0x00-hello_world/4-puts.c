@@ -2,8 +2,7 @@
 /**
  * main - the main function 
  *
- * Return to 0 means Success
- *
+ * Return: to 0 means Success
  */
 int main(void)
 {
