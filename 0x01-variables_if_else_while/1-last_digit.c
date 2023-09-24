@@ -1,9 +1,9 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
- * main : the main function of the code
+ * main - the main function of the code
  *
  * Return: to 0 means success
  */
