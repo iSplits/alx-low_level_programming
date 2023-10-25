@@ -1,1 +1,1 @@
-Static libraries are not dynamic
+C - Static libraries
