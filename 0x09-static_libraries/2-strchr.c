@@ -1,19 +1,18 @@
 #include "main.h"
-
 /**
- * _strchr - function that locates a character in a string
- *
- * @s: string to be searched
- * @c: character to search for
- * Return: pointer to first occurence of c if it's there or NULL otherwise
+ * _strchr - locates a character in a string,
+ * @s: string.
+ * @c: character.
+ * Return: the pointer to the first occurrence of the character c.
  */
 char *_strchr(char *s, char c)
 {
-	do {
-		if (*s == c)
-		{
-			return (s);
-		}
-	} while (*s++);
-	return (NULL);
+	unsigned int i = 0;
+
+	for (; *(s + i) != '\0'; i++)
+		if (*(s + i) == c)
+			return (s + i);
+	if (*(s + i) == c)
+		return (s + i);
+	return ('\0');
 }
